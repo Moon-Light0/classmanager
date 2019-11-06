@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.just.manager.dao.IHeadMasterMapper">
+    <resultMap id="headMasterMap" type="headMaster">
+        <id property="hid" column="hid"></id>
+        <result property="stuName" column="hname"></result>
+        <result property="stuNo" column="hno"></result>
+        <result property="stuPwd" column="hpwd"></result>
+        <result property="age" column="age"></result>
+        <result property="sex" column="sex"></result>
+        <result property="speciality" column="speciality"></result>
+        <collection property="powers" ofType="power">
+            <id property="pid" column="pid"></id>
+            <result property="userId" column="userid"></result>
+            <result property="role" column="role"></result>
+        </collection>
+
+    </resultMap>
+
+
+    <select id="checkUserNameAndPassword" resultType="java.lang.Boolean">
+        select count(*) from headmaster where hno = #{hNo} and hpwd = #{hPwd}
+        /*1返回true，0返回false，大于1返回false*/
+    </select>
+
+    <select id="getByHNo" resultMap="headMasterMap">
+        select h.*,p.* from headmaster h ,power p where hno = #{hNo} and p.userid= h.hno
+    </select>
+
+    <update id="update" parameterType="headmaster">
+        update headmaster set hname = #{stuName} ,sex = #{sex},age = #{age} where hno = #{stuNo}
+    </update>
+</mapper>

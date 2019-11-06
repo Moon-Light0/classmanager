@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.just.manager.dao.IStudentMapper">
+    <resultMap id="student2" type="student">
+        <id property="stuId" column="stuid"></id>
+        <result property="stuName" column="stuname"></result>
+        <result property="stuNo" column="stuno"></result>
+        <result property="stuPwd" column="stupwd"></result>
+        <result property="speciality" column="speciality"></result>
+        <result property="classes" column="classes"></result>
+        <result property="dorm" column="dorm"></result>
+        <result property="sex" column="sex"></result>
+        <result property="age" column="age"></result>
+    </resultMap>
+
+    <resultMap id="studentMap" type="student">
+        <id property="stuId" column="stuid"></id>
+        <result property="stuName" column="stuname"></result>
+        <result property="stuNo" column="stuno"></result>
+        <result property="stuPwd" column="stupwd"></result>
+        <result property="speciality" column="speciality"></result>
+        <result property="classes" column="classes"></result>
+        <result property="dorm" column="dorm"></result>
+        <result property="sex" column="sex"></result>
+        <result property="age" column="age"></result>
+        <collection property="scores" ofType="score" column="stuno"
+                    select="com.just.manager.dao.IScoreMapper.selectByStuNo">
+        </collection>
+        <collection property="eveningStudies" ofType="eveningStudy" column="stuno"
+                    select="com.just.manager.dao.IEveningStudyMapper.selectByStuNo">
+        </collection>
+        <collection property="rewards" ofType="reward" column="stuno"
+                    select="com.just.manager.dao.IRewardMapper.selectByStuNo">
+        </collection>
+        <collection property="vacations" ofType="vacation" column="stuno"
+                    select="com.just.manager.dao.IVacationMapper.selectByStuNo">
+        </collection>
+        <collection property="powers" ofType="power">
+            <id property="pid" column="pid"></id>
+            <result property="userId" column="userid"></result>
+            <result property="role" column="role"></result>
+        </collection>
+<!--        <collection property="powers" ofType="power" column="userid"-->
+<!--                    select="com.just.manager.dao.IPowerMapper.selectByStuNo">-->
+<!--        </collection>-->
+    </resultMap>
+    <select id="selectAll" resultMap="studentMap">
+--         select ss.*, c.cname,c.credit,c.enddate,c.startdate,c.teacher from
+--         (select s.stuid,s.stuname,s.age,s.classes,s.dorm,s.sex,s.speciality,s.stuno,s.stupwd,
+--             sco.score,sco.cid,
+--             v.lid,v.leavedate,v.returndate,v.reason,e.content,e.edate,e.eid,
+--             r.rewarddate,r.detail,r.isgood,p.pid,p.role,p.userid
+--         from student s left join score sc on s.stuno = sc.stuno
+--             left join vacation v on s.stuno = v.stuno
+--             left join eveningstudy e on s.stuno = e.stuno
+--             left join reward r on r.stuno = s.stuno
+--             left join power p on p.userid = s.stuno
+--             left join score sco on sco.stuno = s.stuno) ss left join course c on c.cid = ss.cid
+        select * from student
+    </select>
+
+    <select id="selectByStuNo" parameterType="java.lang.String" resultMap="studentMap">
+        select s.*,co.*,sc.*,v.*,e.*,r.*,p.*
+        from student s,score sc, course co,vacation v,eveningstudy e,reward r,power p
+        where s.stuno = #{stuNo}
+        and s.stuno = sc.stuno
+        and co.cid = sc.cid
+        and s.stuno = v.stuno
+        and s.stuno = e.stuno
+        and r.stuno = s.stuno
+        and p.userid = s.stuno
+    </select>
+    <select id="checkUserNameAndPassword" resultType="java.lang.Boolean">
+        select count(*) from student where stuno = #{stuNo} and stupwd = #{stuPwd}
+        /*1返回true，0返回false，大于1返回false*/
+    </select>
+    
+    <select id="selectStuNameByStuNo" resultType="java.lang.String">
+        select stuname from student where stuno = #{stuNo}
+    </select>
+
+    <insert id="insert" parameterType="student">
+        insert into student values(#{stuId},#{stuName},#{stuNo},#{stuPwd},#{speciality},#{classes})
+    </insert>
+
+    <delete id="deleteMany" parameterType="java.lang.String">
+        delete from student
+        <where>
+            <if test="stuNos != null and stuNos.length != 0">
+                stuno
+                <foreach collection="array" open="in (" item="stuNo" close=")" separator=",">
+                    #{stuNo}
+                </foreach>
+            </if>
+        </where>
+    </delete>
+
+    <update id="update" parameterType="student">
+        update student set stuName = #{stuName},dorm = #{dorm},sex = #{sex},age = #{age} where stuno = #{stuNo}
+    </update>
+
+</mapper>

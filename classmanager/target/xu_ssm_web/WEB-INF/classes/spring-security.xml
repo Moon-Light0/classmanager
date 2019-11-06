@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                            http://www.springframework.org/schema/beans/spring-beans.xsd
+                             http://www.springframework.org/schema/security
+                            http://www.springframework.org/schema/security/spring-security.xsd">
+
+    <security:global-method-security pre-post-annotations="enabled" secured-annotations="enabled"
+                                     jsr250-annotations="enabled"
+                                     ></security:global-method-security>
+
+    <!--不拦截的内容 登录页面 错误页面-->
+    <security:http pattern="/css/**" security="none"/>
+    <security:http pattern="/plugins/**" security="none"/>
+    <security:http pattern="/img/**" security="none"/>
+    <security:http pattern="/login.jsp" security="none"/>
+    <security:http pattern="/error.jsp" security="none"/>
+    <security:http pattern="/403.jsp" security="none"/>
+    <!-- <security:http pattern="/favicon.ico" security="none"/>-->
+    <!--配置拦截的规则  auto-config 使用自带页面 use-expressions 是否使用spel表达式 -->
+    <security:http auto-config="true" use-expressions="true">
+        <!--配置:拦截地址-->
+        <security:intercept-url pattern="/**" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+        <!--配置你想跳转的具体页面-->
+        <security:form-login
+                login-page="/login.jsp"
+                login-processing-url="/logins"
+                default-target-url="/index.jsp"
+                authentication-failure-url="/error.jsp"
+                authentication-success-forward-url="/pages/main.jsp" />
+        <!--是否允许跨域-->
+        <!--退出-->
+        <security:logout invalidate-session="true" logout-url="/logout"
+                         logout-success-url="/pages/main.jsp" />
+        <security:csrf disabled="true" />
+    </security:http>
+    <!--配置登录认证管理器-->
+    <security:authentication-manager>
+        <security:authentication-provider user-service-ref="userService">
+            <!-- 配置加密的方式   -->
+            <security:password-encoder ref="passwordEncoder"/>
+        </security:authentication-provider>
+    </security:authentication-manager>
+    <!-- 配置加密类 -->
+    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+</beans>

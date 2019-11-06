@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.just.manager.dao.IRewardMapper">
+
+    <resultMap id="rewardMap" type="reward">
+        <id property="rewardDate" column="rewarddate" jdbcType="TIMESTAMP"></id>
+        <result property="detail" column="detail"></result>
+        <result property="isGood" column="isgood"></result>
+        <result property="stuNo" column="stuno"></result>
+        <association property="student" javaType="student">
+            <id property="stuNo" column="stuno"></id>
+            <result property="stuName" column="stuname"></result>
+            <result property="classes" column="classes"></result>
+        </association>
+    </resultMap>
+
+
+    <select id="selectByRewardDate"  parameterType="java.util.Date" resultMap="rewardMap">
+        select r.*,s.stuname,s.classes from reward r,student s where r.stuno = s.stuno and r.rewarddate=#{rewardDate}
+    </select>
+
+    <select id="selectByStuNo" parameterType="java.lang.String" resultMap="rewardMap">
+        select * from reward where stuno = #{stuNo}
+    </select>
+
+    <select id="selectAll" resultMap="rewardMap">
+        select r.*,s.stuname,s.classes from reward r,student s where r.stuno = s.stuno
+    </select>
+
+    <select id="selectByIsGood" parameterType="java.lang.Integer" resultType="reward">
+        select * from reward where isgood = #{isGood}
+    </select>
+    <select id="selectByStuNoLike" resultType="reward">
+        select * from reward where LOCATE(#{stuNo},stuno)
+    </select>
+    <select id="selectByStuNameLike" resultType="reward">
+        select * from reward r,student s where LOCATE(#{0},s.stuName) and r.stuno = s.stuno
+    </select>
+
+    <insert id="insert" parameterType="reward">
+        insert into reward value (#{rewardDate},#{stuNo},#{detail},#{isGood})
+    </insert>
+
+    <delete id="deleteByRewardDate" parameterType="java.util.Date">
+        delete from reward where rewarddate = #{rewardDate}
+    </delete>
+    <delete id="deleteByRewardDates" parameterType="java.util.Date">
+        delete from reward
+        <where>
+            <if test="rewardDates != null and rewardDates.size != 0">
+                rewardDate in
+                <foreach collection="rewardDates" open="(" separator="," close=")" item="rewardDate" index="index">
+                    #{rewardDate}
+                </foreach>
+            </if>
+        </where>
+
+    </delete>
+
+
+    <update id="update" parameterType="reward">
+        update reward set stuno = #{stuNo},detail = #{detail},isGood = #{isGood} where rewarddate = #{rewardDate}
+    </update>
+
+</mapper>

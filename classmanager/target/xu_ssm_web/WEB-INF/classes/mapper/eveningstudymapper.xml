@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.just.manager.dao.IEveningStudyMapper">
+
+    <insert id="insertByStuNo" parameterType="eveningStudy">
+        insert into eveningstudy values (#{eId},#{stuNo},#{eDate},#{isSign},#{content})
+    </insert>
+    <select id="selectByStuNo"  parameterType="java.lang.String" resultType="eveningStudy">
+        select * from eveningstudy where stuno = #{stuNo}
+    </select>
+
+
+    <select id="selectByEDateStrAndStuNo" resultType="eveningStudy">
+        select * from eveningstudy
+        where DATE_FORMAT(edate,'%Y-%m-%d')=#{eDateStr}
+        and stuno = #{stuNo}
+    </select>
+
+    <select id="selectByEDateStrAndStuNoAndIsSign" resultType="eveningStudy">
+        select * from eveningstudy
+        where DATE_FORMAT(edate,'%Y-%m-%d')=#{eDateStr}
+        and stuno = #{stuNo}
+        and issign = #{isSign}
+    </select>
+
+
+
+
+</mapper>

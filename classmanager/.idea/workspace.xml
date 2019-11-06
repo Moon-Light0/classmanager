@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f44dc66-0230-4e2e-bb88-e0ab881abe6c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentmapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2093">
+              <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/service/impl/StudentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="851">
+              <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/Power.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentmanage.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/reward.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6736">
+              <caret line="583" column="16" selection-start-line="583" selection-start-column="16" selection-end-line="583" selection-end-column="16" />
+              <folding>
+                <element signature="n#style#0;n#textarea#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/powermapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/Student.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/dao/IPowerMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/controller/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1196">
+              <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysql</find>
+      <find>leave</find>
+      <find>date</find>
+      <find>{pageContext</find>
+      <find>张猿猿</find>
+      <find>student</find>
+      <find>box-body</find>
+      <find>${user</find>
+      <find>StuId</find>
+      <find>..</find>
+      <find>奖惩</find>
+      <find>../</find>
+      <find>json</find>
+      <find>name</find>
+      <find>S</find>
+      <find>pagesDiv</find>
+      <find>addModelBtn</find>
+      <find>isGood</find>
+      <find>4.3.9.RELEASE</find>
+      <find>注销</find>
+      <find>4.3.9</find>
+      <find>4.2.3</find>
+      <find>密码</find>
+      <find>settings</find>
+      <find>关于</find>
+      <find>stuId</find>
+      <find>is</find>
+      <find>user</find>
+      <find>modal</find>
+      <find>reward</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>vacation</replace>
+      <replace>DATE</replace>
+      <replace>{pageContext.request.contextPath}/</replace>
+      <replace>${pageContext</replace>
+      <replace>${student.stuName}</replace>
+      <replace>user</replace>
+      <replace>stuNo</replace>
+      <replace>StuNo</replace>
+      <replace>${pageContext.request.contextPath}/</replace>
+      <replace>pageData</replace>
+      <replace>5.0.2.RELEASE</replace>
+      <replace>5.0.2</replace>
+      <replace>5.0.1</replace>
+      <replace />
+      <replace>studentAddModal</replace>
+      <replace>student</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/dao/IRewardMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/dao/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/domain/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/utils/BCryptPasswordEncoderUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/domain/HeadMaster.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/403.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/foot.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/controller/RewardController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/headmastermsg.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/service/IHeadMasterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/service/impl/HeadMasterService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/dao/IHeadMasterMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/headmastermapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/score.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/mymsg.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/eveningstudymapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/vacationmapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/scoremapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/domain/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/dao/IScoreMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/test/MapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/domain/Reward.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/domain/EveningStudy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/domain/Course.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/domain/Vacation.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/service/IStudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/dao/IStudentMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/controller/HeadMasterController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/reward.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/rewardmapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/domain/Power.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/studentmapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/dao/IPowerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/just/manager/service/impl/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/powermapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/studentmanage.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\zebra_mvnrepository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="classmanager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="classmanager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="70" />
+    <option name="width" value="1380" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.just.manager.controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.just.manager.dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com.just.manager.domain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="mapper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="classmanager" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="WEB-INF" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="classmanager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="classmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.3283237" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAProject\classmanager\src\main\resources\mapper" />
+      <recent name="D:\IDEAProject\classmanager\src\main\webapp\pages" />
+      <recent name="D:\IDEAProject\classmanager\src\main\webapp\img" />
+      <recent name="D:\IDEAProject\classmanager\src\main\webapp" />
+      <recent name="D:\IDEAProject\classmanager\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.just.manager.service.impl" />
+      <recent name="com.just.manager.service" />
+      <recent name="com.just.manager.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEAProject\classmanager\src\main\webapp" />
+      <recent name="D:\IDEAProject\classmanager\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.classmanager [tomcat7:run]">
+    <configuration name="MapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.manager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.just.manager.test" />
+      <option name="MAIN_CLASS_NAME" value="com.just.manager.test.MapperTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testCURD (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.manager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.just.manager.test" />
+      <option name="MAIN_CLASS_NAME" value="com.just.manager.test.MapperTest" />
+      <option name="METHOD_NAME" value="testCURD" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.manager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.just.manager.test" />
+      <option name="MAIN_CLASS_NAME" value="com.just.manager.test.MapperTest" />
+      <option name="METHOD_NAME" value="testHead" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testRewardMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.manager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.just.manager.test" />
+      <option name="MAIN_CLASS_NAME" value="com.just.manager.test.MapperTest" />
+      <option name="METHOD_NAME" value="testRewardMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MapperTest.testScore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="classmanager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.just.manager.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.just.manager.test" />
+      <option name="MAIN_CLASS_NAME" value="com.just.manager.test.MapperTest" />
+      <option name="METHOD_NAME" value="testScore" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="classmanager [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MapperTest.testCURD (1)" />
+      <item itemvalue="JUnit.MapperTest.testRewardMapper" />
+      <item itemvalue="JUnit.MapperTest.testHead" />
+      <item itemvalue="JUnit.MapperTest" />
+      <item itemvalue="JUnit.MapperTest.testScore" />
+      <item itemvalue="Maven.classmanager [tomcat7:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MapperTest.testCURD (1)" />
+        <item itemvalue="JUnit.MapperTest.testScore" />
+        <item itemvalue="JUnit.MapperTest" />
+        <item itemvalue="JUnit.MapperTest.testHead" />
+        <item itemvalue="JUnit.MapperTest.testRewardMapper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f44dc66-0230-4e2e-bb88-e0ab881abe6c" name="Default Changelist" comment="" />
+      <created>1571934982937</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571934982937</updated>
+      <workItem from="1571934985973" duration="1089000" />
+      <workItem from="1571968720744" duration="3532000" />
+      <workItem from="1571973276071" duration="1096000" />
+      <workItem from="1571977855443" duration="31536000" />
+      <workItem from="1572045595211" duration="22356000" />
+      <workItem from="1572093937991" duration="2914000" />
+      <workItem from="1572177658132" duration="6511000" />
+      <workItem from="1572245231717" duration="21662000" />
+      <workItem from="1572306627756" duration="31739000" />
+      <workItem from="1572483304185" duration="23943000" />
+      <workItem from="1572667582729" duration="21467000" />
+      <workItem from="1572749090157" duration="28146000" />
+      <workItem from="1572798083004" duration="365000" />
+      <workItem from="1572830771666" duration="19207000" />
+      <workItem from="1572934628695" duration="30431000" />
+      <workItem from="1573013270919" duration="18668000" />
+      <workItem from="1573054930818" duration="1224000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 28m 23s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 29m 13s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 29m 31s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 29m 58s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 30m 36s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 30m 51s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 32m 27s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 36m 05s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.05 at 23h 37m 40s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapperTest_testCURD_(1) - 2019.11.06 at 13h 13m 59s.xml">
+      <configuration name="MapperTest.testCURD (1)" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="265886000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992928" visible="true" weight="0.25134048" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5007072" side_tool="true" weight="0.22453083" />
+      <window_info id="JRebel" order="8" sideWeight="0.5007072" side_tool="true" weight="0.22453083" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.26874116" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49865952" weight="0.1513437" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32956153" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.33097595" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32956153" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.38613862" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Problems" order="14" weight="0.32956153" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.5013405" side_tool="true" weight="0.33097595" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3649222" />
+      <window_info anchor="bottom" id="JRebel Executor" order="17" sideWeight="0.49865952" weight="0.31117398" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.112600535" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/just/manager/controller/RewardController.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/core/userdetails/User.class</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/just/manager/test/MapperTest.java</url>
+          <line>77</line>
+          <properties class="com.just.manager.test.MapperTest" method="testScore">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-taglibs/4.1.0.RELEASE/spring-security-taglibs-4.1.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="112" column="42" lean-forward="true" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
+          <folding>
+            <element signature="e#612#751#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.0.1.RELEASE/spring-security-web-5.0.1.RELEASE.jar!/org/springframework/security/web/method/annotation/AuthenticationPrincipalArgumentResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/core/AuthenticatedPrincipal.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_60/src.zip!/java/security/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="24" column="90" selection-start-line="24" selection-start-column="90" selection-end-line="24" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/HeadMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding>
+            <element signature="e#1468#1469#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/service/IHeadMasterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/dao/IHeadMasterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/service/impl/HeadMasterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/headmastermapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/eveningstudymapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="57" lean-forward="true" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/dao/IScoreMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/dao/IVacationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/vacationmapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/Vacation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="74" column="10" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/EveningStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/core/userdetails/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#2385#2386#0" expanded="true" />
+            <element signature="e#2424#2425#0" expanded="true" />
+            <element signature="e#2459#2460#0" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.1.RELEASE/spring-security-core-5.0.1.RELEASE.jar!/org/springframework/security/core/Authentication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/test/MapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="105" column="47" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/mymsg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="492" column="35" lean-forward="true" selection-start-line="492" selection-start-column="35" selection-end-line="492" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="27" column="12" lean-forward="true" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/controller/RewardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-529">
+          <caret line="49" column="40" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-593" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="49" column="92" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="129" column="75" selection-start-line="129" selection-start-column="75" selection-end-line="129" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/dao/IStudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/controller/HeadMasterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/dao/IRewardMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/scoremapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/rewardmapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="60" column="47" lean-forward="true" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
+          <folding>
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#5;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/headmastermsg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3427">
+          <caret line="419" column="7" selection-start-line="419" selection-start-column="7" selection-end-line="419" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/Reward.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/service/IStudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/studentmapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2093">
+          <caret line="91" column="28" selection-start-line="91" selection-start-column="28" selection-end-line="91" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/service/impl/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="56" column="37" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/powermapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/dao/IPowerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/just/manager/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="52" column="67" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/reward.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6736">
+          <caret line="583" column="16" selection-start-line="583" selection-start-column="16" selection-end-line="583" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#td#6;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/studentmanage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="306" lean-forward="true" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>classmanager:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.11574074" />
+                <option value="0.7689655" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jquery-3.3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3283237" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3283237" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>classmanager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3283237" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
